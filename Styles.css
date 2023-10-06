@@ -23,7 +23,7 @@
 
 
 body {
-  background-color: #919191
+  background-color:  #919191
 }
 
 
@@ -31,6 +31,8 @@ h1 {
   text-align: center;
   background-color: #adadad;
   padding: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 
@@ -38,6 +40,8 @@ h2 {
   text-align: center;
   background-color: #adadad;
   padding: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 
@@ -45,6 +49,8 @@ h3 {
   text-align: center;
   background-color: #adadad;
   padding: 3px;
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 
@@ -52,6 +58,7 @@ p {
   text-align: center;
   background-color: #adadad;
   padding: 3px;
+  font-family: 'Dosis', sans-serif;
 }
 
 
@@ -59,11 +66,14 @@ div {
   text-align: center;
 }
 
+
 footer {
   background-color: #adadad;
   text-align: center;
   padding: 3px;
-{
+  font-family: 'Dosis', sans-serif;
+}
+
 
 nav{
   background-color: #adadad;
@@ -74,10 +84,12 @@ nav{
   width: 100%;
 }
 
+
 nav ul li{
   display: inline-block;
   list-style-type: none;
 }
+
 
 nav ul li a{
   color: #ebebeb;
@@ -86,3 +98,15 @@ nav ul li a{
   text-decoration: none;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #7d7d7d;
+  }
+
+
+  @media screen and (max-width: 600px) {
+  body {
+    background-color: #c7c7c7;
+  }
