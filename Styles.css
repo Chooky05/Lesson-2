@@ -18,6 +18,18 @@
 }
 
 
+.image1 {
+  width: 600px;
+  height: 350px;
+}
+
+
+.image2 {
+  width: 30px;
+  height: 30px;
+}
+
+
 body {
   background-color: #919191
 }
@@ -58,16 +70,22 @@ p {
 }
 
 
+img {
+  width: 350px;
+  height: 300px;
+}
+
+
 div {
   text-align: center;
-  padding: 25px;
+  padding: 50px;
 }
 
 
 footer {
   background-color: #adadad;
   text-align: center;
-  padding: 25px;
+  padding: 50px;
   font-family: 'Dosis', sans-serif;
 }
 
